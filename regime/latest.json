@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "generated": "2026-09-08T12:00:00.000Z",
+  "asOf": "2026-09-08",
+  "posture": "half",
+  "counts": {
+    "red": 1,
+    "amber": 1,
+    "green": 1
+  },
+  "signals": [
+    {
+      "id": "trend",
+      "label": "QQQ trend",
+      "color": "#0ca30c",
+      "value": "+9.1% vs 200-day",
+      "note": "Green above, red below."
+    },
+    {
+      "id": "breadth",
+      "label": "Breadth",
+      "color": "#fab219",
+      "value": "45.5% above their 200-day",
+      "note": "Uses state/rsi-latest.json under the hood."
+    },
+    {
+      "id": "vix",
+      "label": "Volatility",
+      "color": "#d03b3b",
+      "value": "VIX 31.4",
+      "note": "Red above 25."
+    }
+  ],
+  "moodComposite": {
+    "score": 48,
+    "rating": "neutral",
+    "components": {
+      "volatility": 58.7,
+      "breadth": 45.7,
+      "credit": 38.1
+    },
+    "asOf": "2026-09-04"
+  }
+}
