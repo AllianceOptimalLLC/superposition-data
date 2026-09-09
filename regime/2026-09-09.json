@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-09T04:55:55.458Z",
+  "generated": "2026-09-09T12:47:01.949Z",
   "asOf": "2026-09-09",
   "posture": "levels-only",
   "counts": {
@@ -24,7 +24,7 @@
       "id": "breadth",
       "label": "Breadth",
       "color": "#fab219",
-      "value": "45.5% above their 200-day (35 of 77)",
+      "value": "46.8% above their 200-day (37 of 79)",
       "note": "Share of loop names trading above their own 200-day (pct200 > 0 in state/rsi-latest.json, index ETFs excluded). Green above 60%. Amber 40% to 60% inclusive. Red below 40%."
     },
     {
@@ -45,7 +45,7 @@
       "id": "fed",
       "label": "Fed path",
       "color": "#d03b3b",
-      "value": "FOMC 2026-09-16: hike 54% / hold 46% / cut 0%",
+      "value": "FOMC 2026-09-16: hike 56% / hold 44% / cut 0%",
       "note": "Nearest FOMC meeting priced off 30-day fed funds futures. Red if the hike probability is above 50%. Green if the cut probability is above 50%. Amber otherwise, and amber with \"no futures quote\" when the contracts do not price."
     },
     {
@@ -71,13 +71,13 @@
     }
   ],
   "moodComposite": {
-    "score": 48,
+    "score": 47,
     "rating": "neutral",
     "components": {
-      "volatility": 58.7,
-      "breadth": 45.7,
-      "credit": 38.1
+      "volatility": 53.9,
+      "breadth": 48.2,
+      "credit": 37.6
     },
-    "asOf": "2026-09-04"
+    "asOf": "2026-09-08"
   }
 }
