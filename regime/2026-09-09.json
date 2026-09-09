@@ -6,8 +6,12 @@
   "counts": {
     "red": 4,
     "amber": 2,
-    "green": 4
+    "green": 2
   },
+  "omitted": [
+    "fearGreed",
+    "aaii"
+  ],
   "signals": [
     {
       "id": "trend",
@@ -57,20 +61,6 @@
       "color": "#d03b3b",
       "value": "-1.24% vs 200-day",
       "note": "HYG (high yield credit) vs its own 200-day. Green above the 200-day. Amber within 1% of it. Red more than 1% below."
-    },
-    {
-      "id": "fearGreed",
-      "label": "Fear and Greed",
-      "color": "#0ca30c",
-      "value": "42 (fear)",
-      "note": "CNN Fear and Greed score. Red below 25 or above 80. Amber 25 to 40 or 70 to 80, inclusive at every edge. Green strictly between 40 and 70. A red here is a crowd reading, not an instruction: deep-fear reds often mark good buying windows."
-    },
-    {
-      "id": "aaii",
-      "label": "AAII spread",
-      "color": "#0ca30c",
-      "value": "+2.1 bull minus bear",
-      "note": "AAII bull minus bear spread. Amber above +20 or below -20 (crowded either way). Green otherwise. This signal is never red."
     },
     {
       "id": "season",
