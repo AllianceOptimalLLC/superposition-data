@@ -1,0 +1,277 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-11T14:42:22.934Z",
+  "events": [
+    {
+      "id": "cpi-2026-09-11",
+      "series": "cpi",
+      "name": "Consumer Price Index (August 2026)",
+      "releaseAt": "2026-09-11T08:30:00-04:00",
+      "importance": "high",
+      "prior": {
+        "mom": 0.07,
+        "yoy": 3.3,
+        "coreYoy": 2.47,
+        "period": "2026-07",
+        "asOf": "2026-08-12",
+        "source": "BLS API v2 (CUSR0000SA0, CUSR0000SA0L1E), computed"
+      },
+      "actual": null,
+      "source": "bls"
+    },
+    {
+      "id": "fomc-2026-09-16",
+      "series": "fomc",
+      "name": "FOMC Rate Decision (SEP + press conference)",
+      "releaseAt": "2026-09-16T14:00:00-04:00",
+      "importance": "high",
+      "prior": {
+        "targetRange": "3.50%-3.75%",
+        "asOf": "2026-07-29",
+        "note": "held since Dec 2025, after three 25bp cuts in Sep/Oct/Dec 2025",
+        "source": "federalreserve.gov (hand-set, no keyless API)"
+      },
+      "actual": null,
+      "source": "fed"
+    },
+    {
+      "id": "claims-2026-09-17",
+      "series": "claims",
+      "name": "Initial Jobless Claims (week of 2026-09-17)",
+      "releaseAt": "2026-09-17T08:30:00-04:00",
+      "importance": "medium",
+      "prior": null,
+      "actual": null,
+      "source": "computed"
+    },
+    {
+      "id": "claims-2026-09-24",
+      "series": "claims",
+      "name": "Initial Jobless Claims (week of 2026-09-24)",
+      "releaseAt": "2026-09-24T08:30:00-04:00",
+      "importance": "medium",
+      "prior": null,
+      "actual": null,
+      "source": "computed"
+    },
+    {
+      "id": "gdp-third-2026-09-30",
+      "series": "gdp",
+      "name": "GDP Third Estimate (Q2 2026)",
+      "releaseAt": "2026-09-30T08:30:00-04:00",
+      "importance": "high",
+      "prior": {
+        "qoqAnnualized": 1.5,
+        "period": "2026-Q2 (second estimate)",
+        "asOf": "2026-08-28",
+        "source": "BEA (hand-set, no keyless API)"
+      },
+      "actual": null,
+      "source": "bea"
+    },
+    {
+      "id": "pce-2026-09-30",
+      "series": "pce",
+      "name": "Personal Income and Outlays (PCE) (August 2026)",
+      "releaseAt": "2026-09-30T08:30:00-04:00",
+      "importance": "high",
+      "prior": {
+        "yoy": 3.7,
+        "coreYoy": 3.3,
+        "period": "2026-07",
+        "asOf": "2026-08-29",
+        "source": "BEA, Personal Income and Outlays, July 2026 (hand-set, no keyless API)"
+      },
+      "actual": null,
+      "source": "bea"
+    },
+    {
+      "id": "claims-2026-10-01",
+      "series": "claims",
+      "name": "Initial Jobless Claims (week of 2026-10-01)",
+      "releaseAt": "2026-10-01T08:30:00-04:00",
+      "importance": "medium",
+      "prior": null,
+      "actual": null,
+      "source": "computed"
+    },
+    {
+      "id": "jobs-2026-10-02",
+      "series": "jobs",
+      "name": "Employment Situation (September 2026)",
+      "releaseAt": "2026-10-02T08:30:00-04:00",
+      "importance": "high",
+      "prior": {
+        "payrollsChangeK": 162,
+        "unemploymentRate": 4.1,
+        "period": "2026-08",
+        "asOf": "2026-09-04",
+        "source": "BLS API v2 (CES0000000001, LNS14000000), computed"
+      },
+      "actual": null,
+      "source": "bls"
+    },
+    {
+      "id": "claims-2026-10-08",
+      "series": "claims",
+      "name": "Initial Jobless Claims (week of 2026-10-08)",
+      "releaseAt": "2026-10-08T08:30:00-04:00",
+      "importance": "medium",
+      "prior": null,
+      "actual": null,
+      "source": "computed"
+    },
+    {
+      "id": "cpi-2026-10-14",
+      "series": "cpi",
+      "name": "Consumer Price Index (September 2026)",
+      "releaseAt": "2026-10-14T08:30:00-04:00",
+      "importance": "high",
+      "prior": {
+        "mom": 0.07,
+        "yoy": 3.3,
+        "coreYoy": 2.47,
+        "period": "2026-07",
+        "asOf": "2026-08-12",
+        "source": "BLS API v2 (CUSR0000SA0, CUSR0000SA0L1E), computed"
+      },
+      "actual": null,
+      "source": "bls"
+    },
+    {
+      "id": "ppi-2026-10-15",
+      "series": "ppi",
+      "name": "Producer Price Index (September 2026)",
+      "releaseAt": "2026-10-15T08:30:00-04:00",
+      "importance": "high",
+      "prior": {
+        "mom": 0.07,
+        "period": "2026-07",
+        "asOf": "2026-08-13",
+        "source": "BLS API v2 (WPSFD4), computed"
+      },
+      "actual": null,
+      "source": "bls"
+    },
+    {
+      "id": "claims-2026-10-15",
+      "series": "claims",
+      "name": "Initial Jobless Claims (week of 2026-10-15)",
+      "releaseAt": "2026-10-15T08:30:00-04:00",
+      "importance": "medium",
+      "prior": null,
+      "actual": null,
+      "source": "computed"
+    },
+    {
+      "id": "claims-2026-10-22",
+      "series": "claims",
+      "name": "Initial Jobless Claims (week of 2026-10-22)",
+      "releaseAt": "2026-10-22T08:30:00-04:00",
+      "importance": "medium",
+      "prior": null,
+      "actual": null,
+      "source": "computed"
+    },
+    {
+      "id": "fomc-2026-10-28",
+      "series": "fomc",
+      "name": "FOMC Rate Decision",
+      "releaseAt": "2026-10-28T14:00:00-04:00",
+      "importance": "high",
+      "prior": {
+        "targetRange": "3.50%-3.75%",
+        "asOf": "2026-07-29",
+        "note": "held since Dec 2025, after three 25bp cuts in Sep/Oct/Dec 2025",
+        "source": "federalreserve.gov (hand-set, no keyless API)"
+      },
+      "actual": null,
+      "source": "fed"
+    },
+    {
+      "id": "gdp-advance-2026-10-29",
+      "series": "gdp",
+      "name": "GDP Advance Estimate (Q3 2026)",
+      "releaseAt": "2026-10-29T08:30:00-04:00",
+      "importance": "high",
+      "prior": {
+        "qoqAnnualized": 1.5,
+        "period": "2026-Q2 (second estimate)",
+        "asOf": "2026-08-28",
+        "source": "BEA (hand-set, no keyless API)"
+      },
+      "actual": null,
+      "source": "bea"
+    },
+    {
+      "id": "pce-2026-10-29",
+      "series": "pce",
+      "name": "Personal Income and Outlays (PCE) (September 2026)",
+      "releaseAt": "2026-10-29T08:30:00-04:00",
+      "importance": "high",
+      "prior": {
+        "yoy": 3.7,
+        "coreYoy": 3.3,
+        "period": "2026-07",
+        "asOf": "2026-08-29",
+        "source": "BEA, Personal Income and Outlays, July 2026 (hand-set, no keyless API)"
+      },
+      "actual": null,
+      "source": "bea"
+    },
+    {
+      "id": "claims-2026-10-29",
+      "series": "claims",
+      "name": "Initial Jobless Claims (week of 2026-10-29)",
+      "releaseAt": "2026-10-29T08:30:00-04:00",
+      "importance": "medium",
+      "prior": null,
+      "actual": null,
+      "source": "computed"
+    },
+    {
+      "id": "claims-2026-11-05",
+      "series": "claims",
+      "name": "Initial Jobless Claims (week of 2026-11-05)",
+      "releaseAt": "2026-11-05T08:30:00-05:00",
+      "importance": "medium",
+      "prior": null,
+      "actual": null,
+      "source": "computed"
+    },
+    {
+      "id": "jobs-2026-11-06",
+      "series": "jobs",
+      "name": "Employment Situation (October 2026)",
+      "releaseAt": "2026-11-06T08:30:00-05:00",
+      "importance": "high",
+      "prior": {
+        "payrollsChangeK": 162,
+        "unemploymentRate": 4.1,
+        "period": "2026-08",
+        "asOf": "2026-09-04",
+        "source": "BLS API v2 (CES0000000001, LNS14000000), computed"
+      },
+      "actual": null,
+      "source": "bls"
+    },
+    {
+      "id": "cpi-2026-11-10",
+      "series": "cpi",
+      "name": "Consumer Price Index (October 2026)",
+      "releaseAt": "2026-11-10T08:30:00-05:00",
+      "importance": "high",
+      "prior": {
+        "mom": 0.07,
+        "yoy": 3.3,
+        "coreYoy": 2.47,
+        "period": "2026-07",
+        "asOf": "2026-08-12",
+        "source": "BLS API v2 (CUSR0000SA0, CUSR0000SA0L1E), computed"
+      },
+      "actual": null,
+      "source": "bls"
+    }
+  ],
+  "sources": "BLS (CPI, PPI, employment) API v2 and schedule pages, the BEA release schedule (GDP, PCE), and the Federal Reserve's FOMC calendar: all free, official U.S. government sources, none of them Yahoo, CNN or AAII. `prior` and `actual` are month-over-month / year-over-year percent changes, or level changes for payrolls and unemployment, computed from those series; they are not analyst forecasts. PCE, GDP and FOMC have no free keyless actuals feed, so their `actual` is null until this desk carries a licensed key for one. Not investment advice."
+}
